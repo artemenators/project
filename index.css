@@ -1,17 +1,89 @@
-.footer {
-    background-color: #CAE9F5;
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    margin-left: 30vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+html {
     justify-content: center;
 }
-#voda {
-    color:cornflowerblue;
+
+img {
+    margin-left: 14em;
+    margin-top:30px;
 }
 
-#yo {
-    color:teal;
+#best {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    z-index: 1000; 
 }
 
-#headerdiv {
-    background-image: https://img.freepik.com/free-photo/fantastic-seascape-with-ripples_1232-424.jpg?semt=ais_user_personalization&w=740&q=80;
+
+.top {
+    background-color: #2c3e50;
+    padding: 10px 0;
+  }
+
+  .top ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; 
+  }
+
+  .top li {
+    padding: 0 15px;
+
+  }
+
+  .top a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+
+  .top span {
+    color: white;
+    padding: 0 5px;
+  }
+
+ .H2O {
+   width: 600px;
+   height: 500px;
+ } 
+
+.footer {
+  background-color: #CAE9F5;
+}
+
+.main{
+  transition: 0.3s;
+  color: #2c3e50;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.main:hover{
+  background-color: #62B6CB;
+  transform: translateX(-10px);
+  transform: translateY(-10px);
 }
